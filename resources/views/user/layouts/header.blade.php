@@ -13,7 +13,7 @@
                     <a class="nav-link" href="{{ route('user.home') }}">Home</a>
                 </li>
                 <li class="nav-item">
-                    {{--
+
                     @if (Auth::guest())
                         <a href="{{ route('login') }}">Login</a>
                     @else
@@ -29,7 +29,6 @@
 
                     @endif
                 </li>
-                 --}}
             </ul>
         </div>
     </div>
